@@ -1,0 +1,21 @@
+---
+ - hosts: localhost
+   gather_facts: no
+   vars_file: 
+    - external_vars.yml
+   tasks:
+    - name: Create cluster user account
+      sf_user_account:
+                hostname: "{{ solidfire_hostname }}"
+                username: "{{ solidfire_username }}"
+                password: "{{ solidfire_password }}"
+                state: present
+                account_name: cluster_user
+                account_password: "{{ solidfire_account_password }}"
+                user_type: cluster
+                role: administrator
+                access: "reporting,volumes,nodes,accounts,drives"
+    - debug: var=result
+
+
+
