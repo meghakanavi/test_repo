@@ -1,1 +1,1 @@
-pip install -r sphinxcontrib-ansibleautodoc
+sudo pip install -r sphinxcontrib-ansibleautodoc
