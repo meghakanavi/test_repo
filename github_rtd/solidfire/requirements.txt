@@ -1,1 +1,2 @@
+sudo pip install --upgrade pip
 sudo pip install -r sphinxcontrib-ansibleautodoc
