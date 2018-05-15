@@ -6,7 +6,7 @@ Module documentation
 
     apply()
 
-        This function checks if user account exists or not. If exists, then deletes the duplicate user account if does not exists, then creates an user account based on type of the user
+        This function checks if user account exists or not. If exists, then deletes the duplicate user account if does not exists, then creates an user account based on type of the user.
 
     create_cluster_user()
 
@@ -20,7 +20,7 @@ Module documentation
 
     delete_account()
 
-        This function deletes the cluster admins user account based on cluster admins id
+        This function deletes the cluster admins user account based on cluster admins id.
         Raises:	duplicateErrorException
 
     get_user_account_by_id()
