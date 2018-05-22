@@ -15,8 +15,8 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('.'))
-#sys.path.insert(0, '/root/github_rtd/solidfire/library/')
-sys.path.insert(0, os.path.abspath('../'))
+sys.path.insert(0, '/root/github_rtd/solidfire/library/')
+#sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
 project = u'infra_automation'
@@ -51,15 +51,7 @@ templates_path = ['ntemplates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
-#source_suffix = '.rst'
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
