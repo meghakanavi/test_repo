@@ -15,11 +15,8 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('.'))
-#sys.path.insert(0, 'test_repo/tree/master/github_rtd/solidfire/library')
-
-
-sys.path.insert(0, os.path.abspath('.'))
-
+#sys.path.insert(0, '/root/github_rtd/solidfire/library/')
+sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
 project = u'infra_automation'
@@ -44,6 +41,7 @@ release = u'20 April,2018'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.ansibleautodoc',
+    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
