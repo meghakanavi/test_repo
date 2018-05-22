@@ -15,7 +15,7 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, 'https://github.com/meghakanavi/test_repo/tree/master/github_rtd/solidfire/library')
+sys.path.insert(0, 'test_repo/tree/master/github_rtd/solidfire/library')
 
 # -- Project information -----------------------------------------------------
 
