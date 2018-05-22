@@ -14,10 +14,6 @@
 #
 import os
 import sys
-import sf_user_account
-
-
-------
 #sys.path.insert(0, os.path.abspath('.'))
 #sys.path.insert(0, 'test_repo/tree/master/github_rtd/solidfire/library')
 
