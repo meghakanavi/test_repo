@@ -18,8 +18,7 @@ import sys
 #sys.path.insert(0, 'test_repo/tree/master/github_rtd/solidfire/library')
 
 
-sys.path.insert(0, os.path.abspath('..'))
-sys.path.append(os.path.dirname(__file__))
+#sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
