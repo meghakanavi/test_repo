@@ -14,12 +14,9 @@
 #
 import os
 import sys
-#sys.path.insert(0, os.path.abspath('.'))
-#sys.path.insert(0, 'test_repo/tree/master/github_rtd/solidfire/library')
-
-
-sys.path.insert(0, os.path.abspath('.'))
-
+#sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, '../../library/')
+#sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
 project = u'infra_automation'
@@ -44,6 +41,7 @@ release = u'20 April,2018'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.ansibleautodoc',
+    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -162,11 +160,3 @@ texinfo_documents = [
 
 # -- Extension configuration -------------------------------------------------
 
-
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "hanagire", # Username
-    "github_repo": "infra_automation", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/source/", # Path in the checkout to the docs root
-}
