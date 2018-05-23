@@ -20,7 +20,6 @@ sys.path.insert(0, '../../library/')
 # -- Project information -----------------------------------------------------
 
 
-------
 
 project = u'infra_automation'
 copyright = u'2018, mmkanavi'
