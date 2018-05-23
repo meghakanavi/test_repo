@@ -1,3 +1,4 @@
+!/usr/bin/python
 # This file creates, updates and deletes a cluster admins account based on type of user(cluster and ldap).
 
 
