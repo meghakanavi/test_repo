@@ -14,10 +14,8 @@
 #
 import os
 import sys
-
-------------------------
-#sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, '/root/github_rtd/solidfire/library/')
+#sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, '../../library/')
 #sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
@@ -162,11 +160,3 @@ texinfo_documents = [
 
 # -- Extension configuration -------------------------------------------------
 
-
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "hanagire", # Username
-    "github_repo": "infra_automation", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/source/", # Path in the checkout to the docs root
-}
